@@ -18,6 +18,7 @@ namespace FinalProject.Models
         public decimal? Total { get; set; }
         public int? Pending { get; set; }
         public int? IdProvider { get; set; }
+        public string Description { get; set; }
 
         [JsonIgnore]
         public virtual Provider IdProviderNavigation { get; set; }
